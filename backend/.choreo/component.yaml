@@ -1,0 +1,12 @@
+schemaVersion: "1.2"
+endpoints:
+    - name: appointmentsvc-5c6
+      displayName: appointmentsvc
+      service:
+        basePath: /
+        port: 8080
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: openapi.yaml
