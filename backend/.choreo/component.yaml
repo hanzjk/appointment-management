@@ -10,3 +10,8 @@ endpoints:
         - Project
         - Public
       schemaFilePath: openapi.yaml
+dependencies:
+    connectionReferences:
+    - name: testdbconn
+      resourceRef: database:appointments/appointmentsdbStage
+    
